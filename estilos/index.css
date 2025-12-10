@@ -1,0 +1,124 @@
+/* CONFIGURACIÓN GENERAL (Margenes y Bordes) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Evitar que la cabezera baile al cambiar de pagina */
+html {
+    overflow-y: scroll;
+}
+
+body {
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4; /* Fondo gris suave unificado */
+}
+
+
+/* MENÚ DE NAVEGACIÓN */
+table {
+   width: 100%;         
+   border-collapse: collapse;
+   background-color: PaleTurquoise;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+   margin-bottom: 0;
+}
+
+th {
+   padding-top: 30px;
+   padding-bottom: 10px;
+   font-size: 2rem;       
+   font-weight: 700;      
+   color: #2c3e50;        
+   letter-spacing: 0.5px; 
+}
+
+td {
+   padding-bottom: 25px;
+   text-align: center;
+}   
+
+table a {
+   color: #444;           
+   text-decoration: none;
+   font-size: 1.1rem;     
+   font-weight: 600;      
+   transition: color 0.2s ease;
+}
+
+
+/* EFECTO AL PASAR EL RATÓN */
+table a:hover {
+   color: #000;                
+   text-decoration: underline; 
+}
+
+
+/* DISEÑO PRINCIPAL */
+.parent {
+    margin-top: 30px; 
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    grid-template-rows: auto;
+    gap: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* DISEÑO DE LAS TARJETAS */
+.perfil, .contacto, .skills {
+    background-color: #ffffff; 
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+}
+
+
+.perfil h2, .contacto h2, .skills h2 {
+    color: #2c3e50;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    border-left: 6px solid cadetblue; 
+    padding-left: 15px; 
+}
+
+
+/* ESTILOS DE LISTAS */
+
+/* CONTACTO */
+.contacto ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+.contacto li {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #f0f0f0; 
+    padding-bottom: 5px;
+}
+
+
+/* PERFIL y SKILLS */
+.perfil ul, .skills ul {
+    padding-left: 20px;     
+    list-style-type: disc;  
+    margin-top: 10px;
+}
+
+.perfil li, .skills li {
+    margin-bottom: 12px;    
+    line-height: 1.6;       
+    color: #333;
+}
+
+.perfil { grid-column: 1 / 4; grid-row: 1; }
+.contacto { grid-column: 4 / 6; grid-row: 1; }
+.skills { grid-column: 1 / 6; grid-row: 2; }

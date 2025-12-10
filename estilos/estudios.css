@@ -1,0 +1,121 @@
+/* CONFIGURACIÓN GENERAL (Margenes y Bordes) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Evitar que la cabezera baile al cambiar de pagina */
+html {
+    overflow-y: scroll;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4; 
+}
+
+/* MENÚ DE NAVEGACIÓN */
+table {
+   width: 100%;         
+   border-collapse: collapse;
+   background-color: PaleTurquoise;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+   margin-bottom: 0;
+}
+
+th {
+   padding-top: 30px;
+   padding-bottom: 10px;
+   font-size: 2rem;       
+   font-weight: 700;      
+   color: #2c3e50;        
+   letter-spacing: 0.5px; 
+}
+
+td {
+   padding-bottom: 25px;
+   text-align: center;
+}   
+
+table a {
+   color: #444;           
+   text-decoration: none;
+   font-size: 1.1rem;     
+   font-weight: 600;      
+   transition: color 0.2s ease;
+}
+
+/* EFECTO AL PASAR EL RATÓN */
+table a:hover {
+   color: #000;                
+   text-decoration: underline; 
+}
+
+
+/* DISEÑO PRINCIPAL */
+.parent {
+    margin-top: 30px; 
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    gap: 20px; 
+    max-width: 1200px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* DISEÑO DE LAS TARJETAS */
+.div13, .div14, .div15 {
+    background-color: #ffffff; 
+    padding: 30px;
+    border-radius: 10px;       
+    border: 1px solid #ddd;    
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+}
+
+.div13 h2, .div14 h2, .div15 h2 {
+    color: #2c3e50;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    border-left: 6px solid cadetblue; 
+    padding-left: 15px;
+}
+
+.div13 ul, .div14 ul, .div15 ul {
+    padding-left: 20px;
+    list-style-type: disc; 
+}
+
+.div13 li, .div14 li, .div15 li {
+    margin-bottom: 12px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/*POSICIONAMIENTO TARJETAS */
+
+.div13 {
+    grid-column: 1 / 5; 
+    grid-row: 1;
+}
+
+.div14 {
+    grid-column: 2 / 6; 
+    grid-row: 2;
+    text-align: left; 
+}
+
+.div15 {
+    grid-column: 1 / 5; 
+    grid-row: 3;
+}
+
+hr {
+    border: 0;             
+    height: 1px;           
+    background: #e0e0e0;   
+    margin: 15px 0;        
+}
