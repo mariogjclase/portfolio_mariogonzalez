@@ -1,30 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
     <title>Portfolio de Mario González</title>
+    <link>https://mariogjclase.github.io/portfolio_mariogonzalez</link>
     
-    <link>https://mariogjclase.github.io/proyecto</link>
+    <atom:link href="https://mariogjclase.github.io/portfolio_mariogonzalez/rss.xml" rel="self" type="application/rss+xml" />
+    
     <description>Novedades sobre mis proyectos IT, estudios en ASIR y Ciberseguridad</description>
     <category>tecnologia/ciberseguridad/sistemas</category>
     <copyright>Mario González Jiménez</copyright>
     
     <image>
-        <url>https://mariogjclase.github.io/proyecto/images/perfil.png</url>
+        <url>https://mariogjclase.github.io/portfolio_mariogonzalez/images/perfil.png</url>
         <title>Portfolio de Mario González</title>
-        <link>https://mariogjclase.github.io/proyecto</link>
+        <link>https://mariogjclase.github.io/portfolio_mariogonzalez</link>
         <width>30</width>
         <height>30</height>
     </image>
     
     <language>es-es</language>
     <lastBuildDate>Sun, 08 Mar 2026 20:00:00 +0100</lastBuildDate>
-    <webMaster>mario.gonzalez@correo.ejemplo.com</webMaster>
+    <webMaster>mario.gonzalez@correo.ejemplo.com (Mario Gonzalez)</webMaster>
 
     <item>
         <title>Nuevos proyectos añadidos al portfolio</title>
         <description>He actualizado mi sección de proyectos con nuevos scripts de automatización en Bash, despliegues con Docker y topologías de red Cisco.</description>
-        <link>https://mariogjclase.github.io/proyecto/proyectos.html</link>
-        <author>tu_correo@ejemplo.com</author>
+        <link>https://mariogjclase.github.io/portfolio_mariogonzalez/proyectos.html</link>
+        
+        <guid>https://mariogjclase.github.io/portfolio_mariogonzalez/proyectos.html</guid>
+        
+        <author>tu_correo@ejemplo.com (Mario Gonzalez)</author>
         <category>proyectos</category>
         <pubDate>Sun, 08 Mar 2026 20:00:00 +0100</pubDate>
     </item>
@@ -32,8 +37,11 @@
     <item>
         <title>Especialización en Ciberseguridad</title>
         <description>Información actualizada sobre mi formación en Análisis Forense, Hacking Ético y Bastionado de Redes.</description>
-        <link>https://mariogjclase.github.io/proyecto/estudios.html</link>
-        <author>tu_correo@ejemplo.com</author>
+        <link>https://mariogjclase.github.io/portfolio_mariogonzalez/estudios.html</link>
+        
+        <guid>https://mariogjclase.github.io/portfolio_mariogonzalez/estudios.html</guid>
+        
+        <author>tu_correo@ejemplo.com (Mario Gonzalez)</author>
         <category>estudios</category>
         <pubDate>Sun, 08 Mar 2026 19:30:00 +0100</pubDate>
     </item>
