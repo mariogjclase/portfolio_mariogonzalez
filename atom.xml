@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es" xml:base="https://mariogjclase.github.io/portfolio_mariogonzalez/">
+    
+    <id>https://mariogjclase.github.io/portfolio_mariogonzalez/</id>
+    <title>Portfolio de Mario González (Atom)</title>
+    <updated>2026-03-08T20:30:00+01:00</updated>
+    
+    <link rel="alternate" type="text/html" href="https://mariogjclase.github.io/portfolio_mariogonzalez/"/>
+    <link rel="self" type="application/atom+xml" href="https://mariogjclase.github.io/portfolio_mariogonzalez/atom.xml"/>
+    
+    <author>
+        <name>Mario González Jiménez</name>
+        <email>mario.gonzalez@correo.ejemplo.com</email>
+    </author>
+    
+    <category term="Ciberseguridad"/>
+    <category term="ASIR"/>
+    
+    <logo>https://mariogjclase.github.io/portfolio_mariogonzalez/images/perfil.png</logo>
+
+    <entry>
+        <id>https://mariogjclase.github.io/portfolio_mariogonzalez/proyectos.html</id>
+        <title>Nuevos proyectos añadidos al portfolio</title>
+        <updated>2026-03-08T20:00:00+01:00</updated>
+        <summary>He actualizado mi sección de proyectos con nuevos scripts de automatización en Bash, despliegues con Docker y topologías de red Cisco.</summary>
+        <link rel="alternate" href="https://mariogjclase.github.io/portfolio_mariogonzalez/proyectos.html"/>
+    </entry>
+
+    <entry>
+        <id>https://mariogjclase.github.io/portfolio_mariogonzalez/estudios.html</id>
+        <title>Especialización en Ciberseguridad</title>
+        <updated>2026-03-08T19:30:00+01:00</updated>
+        <summary>Información actualizada sobre mi formación en Análisis Forense, Hacking Ético y Bastionado de Redes.</summary>
+        <link rel="alternate" href="https://mariogjclase.github.io/portfolio_mariogonzalez/estudios.html"/>
+    </entry>
+
+</feed>
