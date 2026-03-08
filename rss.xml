@@ -2,15 +2,16 @@
 <rss version="2.0">
 <channel>
     <title>Portfolio de Mario González</title>
-    <link>https://mariogonzalez.ejemplo.com</link>
+    
+    <link>https://mariogjclase.github.io/proyecto</link>
     <description>Novedades sobre mis proyectos IT, estudios en ASIR y Ciberseguridad</description>
     <category>tecnologia/ciberseguridad/sistemas</category>
     <copyright>Mario González Jiménez</copyright>
     
     <image>
-        <url>https://mariogonzalez.ejemplo.com/images/perfil.png</url>
+        <url>https://mariogjclase.github.io/proyecto/images/perfil.png</url>
         <title>Portfolio de Mario González</title>
-        <link>https://mariogonzalez.ejemplo.com</link>
+        <link>https://mariogjclase.github.io/proyecto</link>
         <width>30</width>
         <height>30</height>
     </image>
@@ -22,8 +23,8 @@
     <item>
         <title>Nuevos proyectos añadidos al portfolio</title>
         <description>He actualizado mi sección de proyectos con nuevos scripts de automatización en Bash, despliegues con Docker y topologías de red Cisco.</description>
-        <link>https://mariogonzalez.ejemplo.com/proyectos.html</link>
-        <author>mario.gonzalez@correo.ejemplo.com</author>
+        <link>https://mariogjclase.github.io/proyecto/proyectos.html</link>
+        <author>tu_correo@ejemplo.com</author>
         <category>proyectos</category>
         <pubDate>Sun, 08 Mar 2026 20:00:00 +0100</pubDate>
     </item>
@@ -31,8 +32,8 @@
     <item>
         <title>Especialización en Ciberseguridad</title>
         <description>Información actualizada sobre mi formación en Análisis Forense, Hacking Ético y Bastionado de Redes.</description>
-        <link>https://mariogonzalez.ejemplo.com/estudios.html</link>
-        <author>mario.gonzalez@correo.ejemplo.com</author>
+        <link>https://mariogjclase.github.io/proyecto/estudios.html</link>
+        <author>tu_correo@ejemplo.com</author>
         <category>estudios</category>
         <pubDate>Sun, 08 Mar 2026 19:30:00 +0100</pubDate>
     </item>
